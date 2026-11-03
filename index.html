@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohan | Personal Profile & Portfolio</title>
+  <meta name="description" content="Personal Profile Website created with AI assistance featuring introduction, skills, projects, and contact details." />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-theme">
+  <!-- Background Glow Effects -->
+  <div class="glow-bg glow-1"></div>
+  <div class="glow-bg glow-2"></div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-symbol">&lt;M/&gt;</span>
+        <span class="logo-text">Mohan</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#ai-tools" class="nav-link">AI Tools</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+          <i class="fa-solid fa-moon moon-icon"></i>
+          <i class="fa-solid fa-sun sun-icon"></i>
+        </button>
+        <a href="#contact" class="btn btn-outline btn-sm">Get in Touch</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Open Navigation Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge">
+            <span class="badge-dot"></span>
+            <span>✨ AI-Powered Personal Profile</span>
+          </div>
+          <h1 class="hero-title">
+            Hello, I'm <span class="gradient-text">Mohan</span> 👋
+          </h1>
+          <h2 class="hero-subtitle">
+            <span id="typewriter-text">Tech Enthusiast & Problem Solver</span>
+            <span class="cursor">|</span>
+          </h2>
+          <p class="hero-desc">
+            Welcome to my personal profile website. Built to showcase modern AI web development capabilities, my technical skill set, creative projects, and background without writing manual boilerplate code.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">
+              <i class="fa-solid fa-paper-plane"></i> Contact Me
+            </a>
+            <a href="#skills" class="btn btn-secondary">
+              <i class="fa-solid fa-bolt"></i> View Skills
+            </a>
+            <a href="#about" class="btn btn-ghost">
+              <i class="fa-solid fa-user"></i> About Me
+            </a>
+          </div>
+
+          <!-- Quick Stats / Highlights -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Responsive</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">AI</span>
+              <span class="stat-label">Generated & Optimized</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">Clean</span>
+              <span class="stat-label">Modern UI/UX</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card-wrapper">
+          <div class="profile-card glass-panel">
+            <div class="card-glow"></div>
+            <div class="avatar-container">
+              <div class="avatar-ring">
+                <div class="avatar-inner">
+                  <i class="fa-solid fa-user-astronaut avatar-icon"></i>
+                </div>
+              </div>
+              <span class="status-indicator" title="Available for opportunities"></span>
+            </div>
+
+            <div class="card-details">
+              <h3 class="card-name">Mohan</h3>
+              <p class="card-role">Digital Creator & Tech Learner</p>
+              <div class="location-tag">
+                <i class="fa-solid fa-location-dot"></i> Available Worldwide / Remote
+              </div>
+
+              <div class="card-tags">
+                <span class="tag">AI Tools</span>
+                <span class="tag">Web Design</span>
+                <span class="tag">Automation</span>
+                <span class="tag">Tech</span>
+              </div>
+
+              <div class="card-socials">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-icon">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-icon">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:contact@example.com" aria-label="Email" class="social-icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter" class="social-icon">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Introduction</span>
+          <h2 class="section-title">About <span class="gradient-text">Myself</span></h2>
+          <p class="section-subtitle">A brief look into my background, interests, and how I leverage AI tools to innovate.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-story glass-panel">
+            <h3><i class="fa-solid fa-sparkles text-accent"></i> My Journey</h3>
+            <p>
+              I am an enthusiastic technology enthusiast passionate about exploring next-generation digital tools, artificial intelligence, and modern web applications. I believe that technology should empower creators to bring ideas to life rapidly and elegantly.
+            </p>
+            <p>
+              This website was crafted to demonstrate the practical application of AI in web development: demonstrating how intuitive prompts and modern AI tools can create clean, accessible, and high-performance digital spaces without traditional development barriers.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight-box">
+                <i class="fa-solid fa-compass highlight-icon"></i>
+                <div>
+                  <strong>Continuous Learner</strong>
+                  <p>Exploring artificial intelligence, automation, and modern software paradigms.</p>
+                </div>
+              </div>
+              <div class="highlight-box">
+                <i class="fa-solid fa-lightbulb highlight-icon"></i>
+                <div>
+                  <strong>Creative Problem Solver</strong>
+                  <p>Bridging design thinking with practical technological execution.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-pillars">
+            <div class="pillar-card glass-panel">
+              <div class="pillar-icon bg-indigo">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <h4>AI & Automation</h4>
+              <p>Harnessing generative AI tools for productivity, content generation, and rapid prototyping.</p>
+            </div>
+
+            <div class="pillar-card glass-panel">
+              <div class="pillar-icon bg-cyan">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <h4>Modern Web Concepts</h4>
+              <p>Understanding responsive UI layouts, component architectures, and web design fundamentals.</p>
+            </div>
+
+            <div class="pillar-card glass-panel">
+              <div class="pillar-icon bg-pink">
+                <i class="fa-solid fa-palette"></i>
+              </div>
+              <h4>Design & Presentation</h4>
+              <p>Ensuring visual clarity, sleek aesthetic presentation, and optimal user accessibility.</p>
+            </div>
+
+            <div class="pillar-card glass-panel">
+              <div class="pillar-icon bg-emerald">
+                <i class="fa-solid fa-bullseye"></i>
+              </div>
+              <h4>Goal-Driven Mindset</h4>
+              <p>Dedicated to turning theoretical knowledge into functional real-world projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">My Skills & <span class="gradient-text">Expertise</span></h2>
+          <p class="section-subtitle">A balanced toolkit blending technical knowledge, AI platforms, and personal strengths.</p>
+        </div>
+
+        <div class="skills-categories-grid">
+          <!-- Category 1: AI & Emerging Tech -->
+          <div class="skill-category glass-panel">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-robot"></i></div>
+              <h3>AI & Intelligent Tools</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Prompt Engineering</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> AI Website Builders</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> ChatGPT / Claude / Gemini</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Content Synthesis</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Workflow Automation</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> AI Prototyping</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Technical & Web Foundations -->
+          <div class="skill-category glass-panel">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-code"></i></div>
+              <h3>Technical Foundations</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> HTML5 & Semantic Web</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Modern CSS3 & Flexbox</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> JavaScript (ES6+)</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Responsive Web Design</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Git & Version Control</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Web Hosting Basics</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Design & Media -->
+          <div class="skill-category glass-panel">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <h3>Creative & UI/UX</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Minimalist UI Design</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Figma & Canva Layouts</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Color Theory & Typography</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Visual Storytelling</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Digital Asset Creation</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> User-Centric Design</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Professional & Soft Skills -->
+          <div class="skill-category glass-panel">
+            <div class="category-header">
+              <div class="category-icon"><i class="fa-solid fa-users"></i></div>
+              <h3>Core Strengths</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Critical Thinking</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Adaptive Problem Solving</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Clear Communication</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Project Management</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Independent Research</span>
+              <span class="skill-chip"><i class="fa-solid fa-check"></i> Team Collaboration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI Website Builders & Objective Showcase -->
+    <section class="section ai-showcase-section" id="ai-tools">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Learning Objective</span>
+          <h2 class="section-title">How AI Builds Websites <span class="gradient-text">Without Coding</span></h2>
+          <p class="section-subtitle">Understanding the modern landscape of AI site builders (Wix, Durable, Framer, and WordPress).</p>
+        </div>
+
+        <div class="builders-grid">
+          <div class="builder-card glass-panel">
+            <div class="builder-badge">AI Platform</div>
+            <div class="builder-icon"><i class="fa-brands fa-wix"></i></div>
+            <h3>Wix AI Site Generator</h3>
+            <p>Uses conversational AI to create structured layouts, custom copywriting, and responsive mobile styling in minutes from simple business descriptions.</p>
+            <ul class="builder-features">
+              <li><i class="fa-solid fa-check-circle"></i> Conversational setup wizard</li>
+              <li><i class="fa-solid fa-check-circle"></i> Built-in hosting & free domain</li>
+              <li><i class="fa-solid fa-check-circle"></i> Drag-and-drop customization</li>
+            </ul>
+          </div>
+
+          <div class="builder-card glass-panel highlighted">
+            <div class="builder-badge popular">Fastest</div>
+            <div class="builder-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
+            <h3>Durable AI Builder</h3>
+            <p>Generates an entire fully-functional website with copy, photos, map, and contact form in under 30 seconds based on your profession and name.</p>
+            <ul class="builder-features">
+              <li><i class="fa-solid fa-check-circle"></i> 30-second website generation</li>
+              <li><i class="fa-solid fa-check-circle"></i> Automatic AI copywriting & images</li>
+              <li><i class="fa-solid fa-check-circle"></i> One-click regeneration of sections</li>
+            </ul>
+          </div>
+
+          <div class="builder-card glass-panel">
+            <div class="builder-badge">Design Focus</div>
+            <div class="builder-icon"><i class="fa-solid fa-cube"></i></div>
+            <h3>Framer AI</h3>
+            <p>Transforms prompt text into publication-ready, visually stunning responsive websites with high-end animations and micro-interactions.</p>
+            <ul class="builder-features">
+              <li><i class="fa-solid fa-check-circle"></i> Prompt-to-design workflow</li>
+              <li><i class="fa-solid fa-check-circle"></i> Ultra-smooth modern animations</li>
+              <li><i class="fa-solid fa-check-circle"></i> Instant free publishing</li>
+            </ul>
+          </div>
+
+          <div class="builder-card glass-panel">
+            <div class="builder-badge">CMS Standard</div>
+            <div class="builder-icon"><i class="fa-brands fa-wordpress"></i></div>
+            <h3>WordPress + AI</h3>
+            <p>Combines WordPress ecosystem with Elementor AI / Hostinger AI builder to generate sections, write compelling blogs, and style themes without code.</p>
+            <ul class="builder-features">
+              <li><i class="fa-solid fa-check-circle"></i> Unlimited scaling & plugin ecosystem</li>
+              <li><i class="fa-solid fa-check-circle"></i> AI content & CSS assistants</li>
+              <li><i class="fa-solid fa-check-circle"></i> Complete ownership of your site</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Showcase</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Practical applications and digital works reflecting curiosity and craftsmanship.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card glass-panel">
+            <div class="project-banner">
+              <div class="project-icon-box bg-indigo">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <span class="project-status">Live</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">AI Personal Profile Website</h3>
+              <p class="project-desc">
+                A clean, responsive profile platform designed using modern AI workflows. Features dynamic dark/light theme switching, modular component architecture, and responsive layout.
+              </p>
+              <div class="project-tech">
+                <span>AI Builder</span>
+                <span>HTML5 / CSS3</span>
+                <span>Vanilla JS</span>
+                <span>Responsive</span>
+              </div>
+              <div class="project-links">
+                <a href="#hero" class="project-link"><i class="fa-solid fa-eye"></i> Current Page</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card glass-panel">
+            <div class="project-banner">
+              <div class="project-icon-box bg-cyan">
+                <i class="fa-solid fa-robot"></i>
+              </div>
+              <span class="project-status">Concept</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Smart Prompt Engineering Lab</h3>
+              <p class="project-desc">
+                A curated repository of structured system prompts and evaluation techniques for generating high-converting landing pages, portfolio bios, and code snippets.
+              </p>
+              <div class="project-tech">
+                <span>Generative AI</span>
+                <span>Prompt Design</span>
+                <span>LLM Workflows</span>
+              </div>
+              <div class="project-links">
+                <a href="#skills" class="project-link"><i class="fa-solid fa-arrow-right"></i> Learn More</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card glass-panel">
+            <div class="project-banner">
+              <div class="project-icon-box bg-pink">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <span class="project-status">Interactive</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Automated Portfolio Generator</h3>
+              <p class="project-desc">
+                An exploratory workflow combining user input parameters with modern AI web builders to produce customized, deployable portfolio templates in seconds.
+              </p>
+              <div class="project-tech">
+                <span>No-Code</span>
+                <span>Automation</span>
+                <span>UI Prototyping</span>
+              </div>
+              <div class="project-links">
+                <a href="#ai-tools" class="project-link"><i class="fa-solid fa-arrow-right"></i> View Tools</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Reach Out</span>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-subtitle">Feel free to connect for collaborations, opportunities, or feedback on this AI project.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Column -->
+          <div class="contact-info glass-panel">
+            <h3>Let's Connect!</h3>
+            <p>
+              Whether you have a question, an opportunity, or want to discuss how AI is shaping the future of web development, my inbox is always open.
+            </p>
+
+            <div class="info-list">
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <span class="info-label">Email Address</span>
+                  <a href="mailto:mohan.techprofile@gmail.com" class="info-value">mohan.techprofile@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <span class="info-label">Phone / WhatsApp</span>
+                  <span class="info-value">+91 98765 43210</span>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <span class="info-label">Location</span>
+                  <span class="info-value">India (Available for Remote Projects)</span>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-briefcase"></i></div>
+                <div>
+                  <span class="info-label">Availability</span>
+                  <span class="info-value badge-open">Open to Opportunities</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-social-bar">
+              <span class="social-label">Find me on:</span>
+              <div class="social-links">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-circle" title="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-circle" title="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-circle" title="Twitter / X">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-card glass-panel">
+            <h3>Send a Message</h3>
+            <form id="profile-contact-form" class="profile-form">
+              <div class="form-group">
+                <label for="name">Your Name <span class="required">*</span></label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-user input-icon"></i>
+                  <input type="text" id="name" name="name" placeholder="John Doe" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address <span class="required">*</span></label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-envelope input-icon"></i>
+                  <input type="email" id="email" name="email" placeholder="john@example.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-tag input-icon"></i>
+                  <input type="text" id="subject" name="subject" placeholder="Project collaboration / Inquiry" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" rows="4" placeholder="Hello Mohan, I checked out your AI profile website and would like to connect..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+
+            <div class="toast-message" id="toast-message">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>Thank you! Your message has been sent successfully.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-logo">&lt;M/&gt; Mohan</span>
+        <p class="footer-copy">
+          &copy; <span id="current-year"></span> Mohan. All rights reserved. Built with AI assistance for no-code web learning.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#ai-tools">AI Tools</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top" title="Back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
